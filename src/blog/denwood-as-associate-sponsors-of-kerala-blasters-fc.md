@@ -10,7 +10,7 @@ description: "Kochi: Denwood, a leading PVC board and furnishing material
 author: Final Goals
 date: 2022-10-01T15:37:18.474Z
 tags:
-  - post
+  - trending2
 image: https://www.manoramaonline.com/content/dam/mm/mo/sports/football/images/2022/9/22/denwud-kerala-blasters.jpg.image.470.246.jpg
 imageAlt: denwood became kerala blaster's sponsers
 ---
