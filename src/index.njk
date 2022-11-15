@@ -67,26 +67,9 @@ title: Final Goals
         <section id="hero">
             <div class="container-xl">
                 <div class="row gy-4">
-                    <div class="post featured-post-lg">
-                        <div class="details clearfix">
-                            <a href="#" class="category-badge">Finance</a>
-                            <h2 class="post-title">
-                                <a href="#">3 Things to avoid while investing in stock market as a beginner</a>
-                            </h2>
-                            <ul class="meta list-inline mb-0">
-                                <li class="list-inline-item">
-                                    <a href="#">Techie Coder</a>
-                                </li>
-                                <li class="list-inline-item">30 May 2021</li>
-                            </ul>
-                        </div>
-                        <a href="#">
-                            <div class="thumb rounded">
-                                <div class="inner data-bg-image" data-bg-image="images/posts/featured-lg.jpg">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                    {%- for post in collections.main | reverse -%}
+                    {%- include 'main-article.njk' -%}
+                    {%- endfor -%}
                 </div>
         </section>
 
@@ -99,7 +82,7 @@ title: Final Goals
                     <!-- left part 1st section  -->
                     <div class="col-lg-8">
 
-                        <div class="section-header">
+                        <div class="section-header" id="trending">
                             <h3 class="section-title">Trending</h3>
                         </div>
 
@@ -121,7 +104,7 @@ title: Final Goals
                         </div>
                         <div class="spacer" data-height="50"></div>
 
-                        <div class="section-header">
+                        <div class="section-header" id="latest">
                             <h3 class="section-title">Latest Posts</h3>
                         </div>
 
@@ -143,11 +126,9 @@ title: Final Goals
                             <div class="widget rounded">
                                 <div class="widget-about text-center">
                                     <h2>Final Goals</h2>
-                                    <p class="mb-4" style="text-align: justify;">This is Lorem ipsum dolor sit amet
-                                        consectetur adipisicing elit.
-                                        Dolores tempora accusantium culpa deleniti nesciunt repellat quisquam quos vero.
-                                        Esse itaque est optio nostrum porro quisquam nihil reprehenderit fugiat enim
-                                        non.</p>
+                                    <p class="mb-4" style="text-align: justify;">We are the football community, you can call us "Final Goals".
+                                    You can read latest and trending news on our website and also you can watch live football matches. Now you can chat with football lovers and with our team members exclusively.
+                                    </p>
                                     <ul class="social-icons list-unstyled list-inline mb-0">
                                         <li class="list-inline-item">
                                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -190,17 +171,13 @@ title: Final Goals
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href="#">Trending</a><span>(7)</span></li>
-                                        <li><a href="#">Politics</a><span>(5)</span></li>
-                                        <li><a href="#">Fashion</a><span>(1)</span></li>
-                                        <li><a href="#">Lifestyle</a><span>(9)</span></li>
-                                        <li><a href="#">Inspiration</a><span>(2)</span></li>
-                                        <li><a href="#">Culture</a><span>(4)</span></li>
+                                        <li><a href="#trending">Trending</a></li>
+                                        <li><a href="#latest">Latest</a></li>
                                     </ul>
                                 </div>
                             </div>
 
-                            <div class="widget rounded">
+                            <div class="widget rounded" id="contact">
                                 <div class="widget-header text-center">
                                     <h3 class="widget-title">Newsletter</h3>
                                 </div>
@@ -215,7 +192,7 @@ title: Final Goals
 
                                     </form>
                                     <span class="newsletter-privacy text-center mt-3">
-                                        By signing up, you agree to our <a href="#">Privacy policy</a>
+                                        By signing up, you agree to our <a href="/privacypolicy.html">Privacy policy</a>
                                     </span>
                                 </div>
                             </div>
@@ -225,12 +202,8 @@ title: Final Goals
                                     <h3 class="widget-title">Tag Clouds</h3>
                                 </div>
                                 <div class="widget-content">
-                                    <a href="#" class="tag">#Trending</a>
-                                    <a href="#" class="tag">#Cooking</a>
-                                    <a href="#" class="tag">#Featured</a>
-                                    <a href="#" class="tag">#Beauty</a>
-                                    <a href="#" class="tag">#Finance</a>
-                                    <a href="#" class="tag">#Celebrities</a>
+                                    <a href="#trending" class="tag">#Trending</a>
+                                    <a href="#latest" class="tag">#latest</a>
                                 </div>
                             </div>
                         </div>
@@ -243,38 +216,6 @@ title: Final Goals
         <div class="instagram">
             <div class="container-xl">
                 <a href="#" class="btn btn-default btn-instagram">@finalgoals Blogs on Instagram</a>
-                <div class="instagram-feed d-flex flex-wrap">
-                    <div class="insta-item col-sm-2 col-6 col-md-2">
-                        <a href="#">
-                            <img src="images/insta/insta-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="insta-item col-sm-2 col-6 col-md-2">
-                        <a href="#">
-                            <img src="images/insta/insta-2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="insta-item col-sm-2 col-6 col-md-2">
-                        <a href="#">
-                            <img src="images/insta/insta-3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="insta-item col-sm-2 col-6 col-md-2">
-                        <a href="#">
-                            <img src="images/insta/insta-4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="insta-item col-sm-2 col-6 col-md-2">
-                        <a href="#">
-                            <img src="images/insta/insta-5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="insta-item col-sm-2 col-6 col-md-2">
-                        <a href="#">
-                            <img src="images/insta/insta-6.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -340,20 +281,17 @@ title: Final Goals
         </div>
         <nav>
             <ul class="vertical-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#latest">Latest</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li class="active">
-                    <a href="index.html">Home</a>
+                    <a href="/">Language</a>
                     <ul class="submenu">
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">Electronic</a></li>
-                        <li><a href="#">Cricket</a></li>
-                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Malayalam</a></li>
+                        <li><a href="#">English</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Latest</a></li>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
 

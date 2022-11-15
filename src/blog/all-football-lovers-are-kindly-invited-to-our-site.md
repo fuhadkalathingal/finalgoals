@@ -1,10 +1,6 @@
 ---
 title: All football lovers are kindly invited to our site
-description: W﻿e started this site especially for football lovers. There a lots
-  of football news websites and apps, but we are different you all can enjoy the
-  news in your language, in your tone. And also there is one important feature
-  that is free live matches. Every day we stream live matches to give you the
-  best in-depth coverage
+description: W﻿e started this site especially for football lovers.
 author: Final Goals
 date: 2022-09-29T11:43:17.663Z
 tags:

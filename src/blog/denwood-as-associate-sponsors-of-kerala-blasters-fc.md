@@ -1,12 +1,7 @@
 ---
 title: Denwood as associate sponsors of Kerala Blasters FC
 description: "Kochi: Denwood, a leading PVC board and furnishing material
-  business company in the domestic and international markets, will be the
-  associate partner of Kerala Blasters FC in the new edition of the Indian Super
-  League. Denwood serves most parts of India and the Middle East with various
-  products in the manufacturing and furnishing businesses.As part of the
-  partnership, the Denwood logo will be emblazoned on the jersey sleeves of
-  Kerala Blasters FC official kits."
+  business company in the domestic and international markets"
 author: Final Goals
 date: 2022-10-01T15:37:18.474Z
 tags:

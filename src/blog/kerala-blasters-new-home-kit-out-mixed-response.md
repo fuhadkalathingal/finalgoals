@@ -1,15 +1,11 @@
 ---
 title: Kerala Blasters new home kit out, mixed response
 description: Kerala Blasters home kit for Indian Super League season 2022-23 has
-  been released. This time, the club's home jersey is pre-weighted to their
-  unique color yellow. The yellow jersey has a bold blue stripe across the side
-  of the chest. This is the first time that Blasters' home jersey comes in a
-  design like this.The Blasters jersey was introduced through social media this
-  evening. At the same time, fans have had a mixed reaction to the jersey.
+  been released.
 author: Final Goals
 date: 2022-10-01T15:47:55.957Z
 tags:
-  - post
+  - main
 image: https://static.langimg.com/thumb/msid-94457683,imgsize-108956,width-700,height-525,resizemode-75/kerala-blasters-fc-home-kit-94457683.jpg
 imageAlt: Kerala Blaster's home kit
 ---
