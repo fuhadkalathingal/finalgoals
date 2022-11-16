@@ -17,17 +17,19 @@
   <meta name="msvalidate.01" content="27CC4B827F297B6AAF98BC5E70412A36" />
   <meta name="description" content="{{ title }}">
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./../../style.css">
   <link property="og:image" itemprop="image" rel="icon" type="icon/png"
     href="https://cdn.dribbble.com/users/13308360/screenshots/19524770/media/91d643659927e1231efd16366cf6c38c.png?compress=1&resize=400x300&vertical=top">
-
-  <!--=============== BOXICONS ===============-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Poppins:wght@700&family=Roboto&family=Source+Sans+Pro&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="./../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel=" stylesheet" href="./../../css/slick.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script type="text/javascript">
     (function (c, l, a, r, i, t, y) {
@@ -72,7 +74,104 @@
     </article>
   </main>
 
-  {% include 'footer.njk' %}
+  <footer>
+    <div class="container-xl">
+      <div class="footer-inner">
+        <div class="row d-flex align-items-center gy-4">
+          <div class="col-md-4">
+            <span class="copyright">&copy; 2022 Final Goals</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <ul class="social-icons list-unstyled list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-pinterest"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-itunes"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <a href="#" id="return-to-top" class="float-md-end">
+              <i class="icon-arrow-up"></i>
+              Back to Top
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- canvas menu  -->
+  <div class="canvas-menu d-flex align-items-end flex-column">
+    <button class="btn-close" aria-label="Close" type="button"></button>
+
+    <div class="logo">
+      <h2>Final Goals</h2>
+    </div>
+    <nav>
+      <ul class="vertical-menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="#latest">Latest</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="https://community.finalgoals.in">Community</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="active">
+          <a href="/">Language</a>
+          <ul class="submenu">
+            <li><a href="#">Malayalam</a></li>
+            <li><a href="#">English</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+    <ul class="social-icons list-unstyled list-inline mb-0 mt-auto w-100">
+      <li class="list-inline-item">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#"><i class="fab fa-itunes"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- javascripts  -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/slick.min.js"></script>
+  <script src="/js/jquery.sticky-sidebar.min.js"></script>
+  <script src="/main.js"></script>
 
 
   <script>

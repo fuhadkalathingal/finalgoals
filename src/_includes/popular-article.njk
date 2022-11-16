@@ -1,6 +1,6 @@
 <div class="thumb circle">
     <span class="number">1</span>
-    <a href="#">
+    <a href="{{post.url}}">
         <div class="inner">
             <img rel="image_src" loading="lazy" src="{{post.data.image}}" alt="{{post.data.imageAlt}}" class="snippet__image">
         </div>
@@ -8,7 +8,7 @@
 </div>
 <div class="details clearfix">
     <h6 class="post-title my-0">
-        <a href="#">{{post.data.title}}</a>
+        <a href="{{post.url}}">{{post.data.title}}</a>
     </h6>
     <ul class="meta list-inline mt-1 mb-0">
         <li class="list-inline-item">{{post.date | postDate}}</li>

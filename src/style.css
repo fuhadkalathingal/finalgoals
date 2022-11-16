@@ -58,6 +58,44 @@ a:focus {
     outline: 0;
 }
 
+.article-title,
+.section-title {
+  color: var(--clr-primary-500);
+}
+
+.article-title {
+  font-family: "Bebas Neue";
+  font-size: 34px;
+  line-height: 32px;
+  margin-right: 20px;
+  color: #181818;
+}
+
+.main-article p{
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 20px;
+  margin-top: 1rem;
+  color: #353935;
+}
+
+.main-article__figure img{
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  object-fit: cover;
+  min-height: 100%;
+  margin-top: 4.5rem;
+  border-radius: 1.5%;
+}
+
 /* ****************** header css starts ******************* */
 
 .site-wrapper .main-overlay {
