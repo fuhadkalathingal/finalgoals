@@ -5,7 +5,7 @@ description: Kerala Blasters home kit for Indian Super League season 2022-23 has
 author: Final Goals
 date: 2022-10-01T15:47:55.957Z
 tags:
-  - main
+  - post
 image: https://static.langimg.com/thumb/msid-94457683,imgsize-108956,width-700,height-525,resizemode-75/kerala-blasters-fc-home-kit-94457683.jpg
 imageAlt: Kerala Blaster's home kit
 ---

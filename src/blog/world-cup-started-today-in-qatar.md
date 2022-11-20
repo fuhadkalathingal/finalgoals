@@ -4,7 +4,7 @@ description: IN 22-23 world cup many programs in open cermony
 author: "FINAL GOALS "
 date: 2022-11-20T15:15:58.101Z
 tags:
-  - post
+  - main
 image: /assets/blog/fifa_world_cup_qatar_2022_by_jafarjeef_df2um59-fullview.jpg
 imageAlt: WHO WILL WIN ?
 ---

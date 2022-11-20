@@ -5,7 +5,7 @@ description: KARIM BENKZEMA ,PAUL POGBA ,CHRISTOPHER NKUNKU,MIKE
 author: final goals
 date: 2022-11-20T07:59:15.565Z
 tags:
-  - post
+  - trending1
 image: /assets/blog/whatsapp-image-2022-11-20-at-1.58.04-pm.jpeg
 imageAlt: THE BIGG LOSS OF WORLD CUP
 ---
