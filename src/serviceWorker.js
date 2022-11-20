@@ -4,6 +4,10 @@ const assets = [
   "/index.html",
   "style.css",
   "main.js",
+  "css/bootstrap.min.css",
+  "css/all.min.css",
+  "css/simple-line-icons.css",
+  "css/slick.css"
 ]
 
 self.addEventListener("install", installEvent => {
