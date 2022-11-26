@@ -4,7 +4,7 @@ description: W﻿e started this site especially for football lovers.
 author: Final Goals
 date: 2022-09-29T11:43:17.663Z
 tags:
-  - post
+  - trending2
 image: /assets/blog/blue-clouds-airplane-illustrations-welcome-card-min.jpg
 imageAlt: welcome to final goals
 ---

@@ -4,9 +4,6 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/style.css');
     eleventyConfig.addPassthroughCopy('./src/css');
-    eleventyConfig.addPassthroughCopy('./src/match.html');
-    eleventyConfig.addPassthroughCopy('./src/livematch.html');
-    eleventyConfig.addPassthroughCopy('./src/scoreboard.html');
     eleventyConfig.addPassthroughCopy('./src/main.js');
     eleventyConfig.addPassthroughCopy('./src/serviceWorker.js');
     eleventyConfig.addPassthroughCopy('./src/manifest.json');
