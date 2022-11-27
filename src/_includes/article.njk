@@ -6,16 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-control" content="public">
-  <meta property="og:title" itemprop="title" name="title" content="Final Goals - Where You Get Latest ISL News">
-  <meta name="keywords" content="finalgoals,isl,footballnews,keralablasters">
+  <meta property="og:title" itemprop="title" name="title" content="{{ title }}">
+  <meta name="keywords" content="{{ keyword }}">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   <meta name="revisit-after" content="2 days">
+  <meta content='{{ post.url }}' property='og:url' />
+  <meta content='Finalgoals.in' property='og:title' />
+  <meta content='Finalgoals.in' property='og:site_name' />
+  <meta content='Finalgoals.in' property='og:image:alt' />
+  <meta content='@final_goals' name='twitter:site' />
+  <meta content='@final_goals' name='twitter:creator' />
+  <meta content='finalgoals.in' name='twitter:domain' />
+  <meta content='website' property='og:type' />
+  <link href='https://www.finalgoals.in/' rel='canonical' />
+  <link href='//www.google.com' rel='dns-prefetch' />
   <meta name="author" content="Final Goals">
   <meta name="robots" content="index, follow">
   <meta name="robots" content="max-image-preview:large">
   <meta name="msvalidate.01" content="27CC4B827F297B6AAF98BC5E70412A36" />
-  <meta name="description" content="{{ title }}">
+  <meta name="description" content="{{ description }}">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="./../../style.css">
   <link property="og:image" itemprop="image" rel="icon" type="icon/png"
@@ -61,9 +71,9 @@
       <div class="container container--narrow flow">
 
         <figure class="main-article__figure">
-          <img src="{{ image }}" alt="imageAlt">
+          <img itemprop="image" property="og:image" src="{{ image }}" alt="imageAlt" title="{{ title }}">
         </figure>
-        <h1 class="article-title">
+        <h1 property="og:title" title="{{ title }}" itemprop="title" class="article-title">
           {{ title }}
         </h1>
 
