@@ -1,10 +1,11 @@
 ---
 title: World cup started today in Qatar
 description: IN 22-23 world cup many programs in open cermony
+keyword: qatar,fifa,worldcup
 author: Final Goals
 date: 2022-11-20T15:15:58.101Z
 tags:
-  - main
+  - post
 image: https://www.tvguide.com/a/img/hub/2022/11/18/52c207ac-3868-45fc-8d2e-fb9593ea2093/fifa-channel-landscape.jpg
 imageAlt: Who will win ?
 ---
