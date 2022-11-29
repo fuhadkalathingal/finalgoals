@@ -4,7 +4,7 @@
         <span class="post-format-sm">
             <i class="icon-picture"></i>
         </span>
-        <a href="{{post.url}}">
+        <a rel="canonical" href="{{post.url}}">
             <div class="inner">
               <img rel="image_src" loading="lazy" src="{{post.data.image}}" alt="{{post.data.imageAlt}}" class="snippet__image">
             </div>
@@ -13,7 +13,7 @@
     <div class="details">
         <ul class="meta list-inline mb-3">
             <li class="list-inline-item">
-                <a href="{{post.url}}">
+                <a rel="canonical" href="{{post.url}}">
                     {{post.data.author}}
                 </a>
             </li>
@@ -23,7 +23,7 @@
             <li class="list-inline-item">{{post.date | postDate}}</li>
         </ul>
         <h5 class="post-tile">
-            <a href="{{post.url}}">
+            <a rel="canonical" href="{{post.url}}">
               {{post.data.title}}
             </a>
         </h5>
@@ -52,7 +52,7 @@
                 </ul>
             </div>
             <div class="more-button float-end">
-                <a href="{{post.url}}"><span class="icon-options"></span></a>
+                <a rel="canonical" href="{{post.url}}"><span class="icon-options"></span></a>
             </div>
         </div>
     </div>
