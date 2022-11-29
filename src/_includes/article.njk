@@ -26,9 +26,11 @@
   <meta name="robots" content="max-image-preview:large">
   <meta name="msvalidate.01" content="27CC4B827F297B6AAF98BC5E70412A36" />
   <meta name="description" content="{{ description }}">
-  <title>{{ title }}</title>
+  <title property="og:title" itemprop="title" name="title">{{ title }}</title>
   <link rel="stylesheet" href="./../../style.css">
-  <link property="og:image" itemprop="image" rel="icon" type="icon/png"
+  <link rel="image" property="og:image" itemprop="image" href="{{ image }}">
+  <link rel="canonical" href="{{ post.url }}">
+  <link rel="icon" type="icon/png"
     href="https://cdn.dribbble.com/users/13308360/screenshots/19524770/media/91d643659927e1231efd16366cf6c38c.png?compress=1&resize=400x300&vertical=top">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
