@@ -1,4 +1,10 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+
+User-agent: Twitterbot
+Allow:*
+User-agent: FacebookBot
+Allow:*
+
 Sitemap: https://www.finalgoals.in/sitemap.xml
