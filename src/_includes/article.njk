@@ -5,28 +5,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Cache-control" content="public">
-  <meta property="og:title" itemprop="title" name="title" content="{{ title }}">
+  
+
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+
+
+  <meta property="og:url" content="{{slug}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:image" content="{{ image }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="finalgoals.in">
+  <meta property="twitter:url" content="{{post.url}}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:image" content="{{ image }}">
+        
   <meta name="keywords" content="{{ keyword }}">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   <meta name="revisit-after" content="2 days">
-  <meta content='{{ post.url }}' property='og:url' />
-  <meta content='Finalgoals.in' property='og:title' />
-  <meta content='Finalgoals.in' property='og:site_name' />
-  <meta content='Finalgoals.in' property='og:image:alt' />
-  <meta content='@final_goals' name='twitter:site' />
-  <meta content='@final_goals' name='twitter:creator' />
-  <meta content='finalgoals.in' name='twitter:domain' />
   <meta content='website' property='og:type' />
   <link href='https://www.finalgoals.in/' rel='canonical' />
   <link href='//www.google.com' rel='dns-prefetch' />
   <meta name="author" content="Final Goals">
   <meta name="robots" content="index, follow">
   <meta name="robots" content="max-image-preview:large">
-  <meta name="msvalidate.01" content="27CC4B827F297B6AAF98BC5E70412A36" />
-  <meta name="description" property="og:description" content="{{ description }}">
-  <title property="og:title" itemprop="title" name="title">{{ title }}</title>
   <link rel="stylesheet" href="./../../style.css">
   <link rel="icon" type="icon/png"
     href="https://cdn.dribbble.com/users/13308360/screenshots/19524770/media/91d643659927e1231efd16366cf6c38c.png?compress=1&resize=400x300&vertical=top">
@@ -71,7 +78,7 @@
       <div class="container container--narrow flow">
 
         <figure class="main-article__figure">
-          <img itemprop="image" property="og:image" src="{{ image }}" alt="{{ imageAlt }}" title="{{ title }}">
+          <img src="{{ image }}" alt="{{ imageAlt }}" title="{{ title }}">
         </figure>
         <h1 property="og:title" title="{{ title }}" itemprop="title" class="article-title">
           {{ title }}
