@@ -6,7 +6,7 @@ keyword: isl,keralablasters,odishafc
 author: Final Goals
 date: 2022-12-27T07:46:20.650Z
 tags:
-  - trending1
+  - post
 image: https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1211%2Fr1105260_1296x729_16%2D9.jpg
 imageAlt: Kerala Blasters Are On A Winning Streak
 ---
