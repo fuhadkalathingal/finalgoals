@@ -5,7 +5,7 @@ keyword: iffhs,best coach,award,2022
 author: Final Goals
 date: 2022-12-27T08:14:16.256Z
 tags:
-  - post
+  - main
 image: https://malayalam.finalgoals.in/assets/blog/carlo-ancelotti-and-pep-guardiola.jpeg
 imageAlt: IFFHS Award for best coach
 ---
