@@ -6,7 +6,7 @@ keyword: bruno,brunofernandes,cr7,cristianoronaldo,portugal
 author: Final Goals
 date: 2022-11-29T04:29:33.560Z
 tags:
-  - main
+  - post
 image: /assets/blog/0_gettyimages-1245184133.jpg
 imageAlt: Portugal's new hero
 ---
