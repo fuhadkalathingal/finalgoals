@@ -5,7 +5,7 @@ keyword: welcome to final goals,football lovers
 author: Final Goals
 date: 2022-09-29T11:43:17.663Z
 tags:
-  - trending2
+  - post
 image: /assets/blog/blue-clouds-airplane-illustrations-welcome-card-min.jpg
 imageAlt: welcome to final goals
 ---
