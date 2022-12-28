@@ -4,6 +4,8 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy('./src/style.css');
     eleventyConfig.addPassthroughCopy('./src/css');
+    eleventyConfig.addPassthroughCopy('./src/manifest.json');
+    eleventyConfig.addPassthroughCopy('./src/sw.js');
     eleventyConfig.addPassthroughCopy('./src/main.js');
     eleventyConfig.addPassthroughCopy('./src/js');
     eleventyConfig.addPassthroughCopy('./src/privacypolicy.html');

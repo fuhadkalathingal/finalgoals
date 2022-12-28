@@ -18,8 +18,7 @@ title: Final Goals
     <link href='//www.google.com' rel='dns-prefetch' />
     <meta name="robots" content="max-image-preview:large">
     <title>{{ title }}</title>
-    <meta name="description"
-        content="We are the football community, you can
+    <meta name="description" content="We are the football community, you can
     call us 'Final Goals'. You can read latest and trending news on our website">
     <meta property="og:url" content="www.finalgoals.in">
     <meta property="og:type" content="website">
@@ -39,6 +38,7 @@ title: Final Goals
         content="We are the football community, you can
         call us 'Final Goals'. You can read latest and trending news on our website and also you can watch live football matches.">
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel=" stylesheet" href="css/slick.css">
@@ -305,8 +305,8 @@ title: Final Goals
                 <li class="active">
                     <a href="/">Language</a>
                     <ul class="submenu">
-                        <li><a href="#">Malayalam</a></li>
-                        <li><a href="#">English</a></li>
+                        <li><a href="https://www.finalgoals.in/">Malayalam</a></li>
+                        <li><a href="/">English</a></li>
                     </ul>
                 </li>
             </ul>
@@ -346,6 +346,26 @@ title: Final Goals
                 }
             });
         }
+    </script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    console.log('Service worker successfully registered on scope', registration.scope);
+                }).catch(function (error) {
+                    console.log('Service worker failed to register');
+                });
+            });
+        }
+
+        self.addEventListener('install', function (event) {
+            console.log('Installed sw.js', event);
+        });
+
+        self.addEventListener('activate', function (event) {
+            console.log('Activated sw.js', event);
+        });
     </script>
 
 </body>
