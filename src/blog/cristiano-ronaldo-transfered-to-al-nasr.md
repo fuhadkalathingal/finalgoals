@@ -7,7 +7,7 @@ keyword: al nasar, cr7, cristiano, transfer
 author: Final Goals
 date: 2022-12-27T12:43:24.031Z
 tags:
-  - trending1
+  - post
 image: https://i.ytimg.com/vi/eguBcDvx8Vc/maxresdefault.jpg
 imageAlt: Medical Shedule Cristiano With Al Nasar
 ---
