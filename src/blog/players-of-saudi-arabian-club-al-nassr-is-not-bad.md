@@ -6,7 +6,7 @@ keyword: alnassr,cristiano,team,saudiarabia
 author: Final Goals
 date: 2022-12-31T12:23:52.952Z
 tags:
-  - post
+  - trending2
 image: https://www.arabnews.com/sites/default/files/styles/n_670_395/public/2021/03/21/2533141-223879878.jpg?itok=Nl8tSrJz
 imageAlt: Al Nassr
 ---
