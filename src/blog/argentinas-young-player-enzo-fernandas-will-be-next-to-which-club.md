@@ -7,7 +7,7 @@ keyword: Enzo fernandas,transfer,benfica
 author: Final Goals
 date: 2022-12-27T10:22:49.339Z
 tags:
-  - main
+  - post
 image: https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt1457d546a4d5952f/639f615dddd807798bb8d7ad/Enzo_Fernandez(1).jpg
 imageAlt: Enzo Fernandas
 ---
