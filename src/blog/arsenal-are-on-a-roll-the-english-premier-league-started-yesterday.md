@@ -7,7 +7,7 @@ keyword: EPL,premiere league,arsenel,liverpool
 author: Final Goals
 date: 2022-12-27T08:08:43.397Z
 tags:
-  - trending2
+  - post
 image: https://static.standard.co.uk/2022/12/26/22/newFile-1.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart
 imageAlt: Arsenel Beated West Hams For 3-0
 ---
