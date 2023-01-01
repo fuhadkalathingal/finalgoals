@@ -6,7 +6,7 @@ keyword: cristiano,alnassr,aboobaker
 author: Final Goals
 date: 2023-01-01T12:54:04.002Z
 tags:
-  - post
+  - trending2
 image: https://www.sportsmax.tv/media/k2/items/cache/ceabf46c55c0f81454e09d6693f3f05f_XL.jpg
 imageAlt: Al Nassr
 ---
