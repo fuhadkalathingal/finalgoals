@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
 
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
@@ -43,6 +43,9 @@
   <link rel=" stylesheet" href="./../../css/slick.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+  <script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=63b114bceb42960019cdfa4c&product=sop'
+    async='async'></script>
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script type="text/javascript">
     (function (c, l, a, r, i, t, y) {
@@ -79,6 +82,10 @@
         <h1 property="og:title" title="{{ title }}" itemprop="title" class="article-title">
           {{ title }}
         </h1>
+
+        <div class="share">
+          <div class="sharethis-inline-share-buttons"></div>
+        </div>
 
         {{ content | safe }}
 
@@ -151,8 +158,12 @@
         <li class="active">
           <a href="/">Language</a>
           <ul class="submenu">
-            <li><a href="#">Malayalam</a></li>
-            <li><a href="#">English</a></li>
+            <li>
+              <a href="https://malayalam.finalgoals.in/" class="dropdown-item">Malayalam</a>
+            </li>
+            <li>
+              <a href="/" class="dropdown-item">English</a>
+            </li>
           </ul>
         </li>
       </ul>
